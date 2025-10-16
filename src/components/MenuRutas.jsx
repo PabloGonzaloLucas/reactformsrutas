@@ -12,6 +12,10 @@ export class MenuRutas extends Component {
             <li><a href="/cine">Cine</a></li>
          
             <li><a href="/musica">Musica</a></li>
+          
+            <li><a href="/collatz">Collatz</a></li>
+
+            <li><a href="/tabla">Tabla Multiplicar</a></li>
         </ul>
         
       </div>
