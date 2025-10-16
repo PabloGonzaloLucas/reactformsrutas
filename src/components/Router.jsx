@@ -6,6 +6,7 @@ import Musica from './Musica'
 import FormSimple from './FormSimple'
 import Collatz from './Collatz'
 import TablaMultiplicar from './TablaMultiplicar'
+import TablaMultiplicarv2 from './TablaMultiplicarv2'
 
 export class Router extends Component {
   render() {
@@ -18,6 +19,7 @@ export class Router extends Component {
             <Route path="/formsimple" element={<FormSimple/>}/>
             <Route path="/collatz" element={<Collatz/>}/>
             <Route path="/tabla" element={<TablaMultiplicar/>}/>
+            <Route path="/tabla2" element={<TablaMultiplicarv2/>}/>
         </Routes>
       </BrowserRouter>
     )

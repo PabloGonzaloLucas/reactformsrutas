@@ -4,10 +4,11 @@ export class TablaMultiplicar extends Component {
     cajaNumero = React.createRef()
     
     state = {
-        numeros : []
+        numeros : [],
+        tabla : []
     }
 
-    generarTabla = (event) =>{
+    generarTabla = (event) => {
         event.preventDefault()
         let numero = parseInt(this.cajaNumero.current.value);
       
