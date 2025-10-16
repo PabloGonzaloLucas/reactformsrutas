@@ -18,6 +18,8 @@ export class MenuRutas extends Component {
             <li><a href="/tabla">Tabla Multiplicar</a></li>
 
             <li><a href="/tabla2">Tabla Multiplicar</a></li>
+            
+            <li><a href="/selectmultiple">Select multiple</a></li>
         </ul>
         
       </div>
